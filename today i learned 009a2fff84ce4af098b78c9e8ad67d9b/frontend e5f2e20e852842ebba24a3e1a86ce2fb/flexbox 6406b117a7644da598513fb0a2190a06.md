@@ -1,0 +1,46 @@
+# flexbox
+
+- para trabalharmos com flexbox, precisamos colocar um `display: flex;` por fora dos elementos que precisamos trabalhar
+- por padrão, exibe os itens um ao lado do outro
+- `flex-direction`
+    - .: row (padrão):
+        - exibe os itens em linha
+    - .: column
+        - exibe os itens em coluna
+    - .: x-reverse
+        - exibe os itens em linha ou coluna, começando pelo final
+- `align-items`
+    - alinha os itens verticalmente ( caso o `flex-direction` esteja como row ). Caso esteja como column, alinha horizontalmente
+    - .: center
+        - alinha o conteúdo ao centro, de acordo com o espaço disponível. (verticalmente)
+    - .: flex-end
+        - alinha o conteúdo ao final do espaço disponível
+    - .:  flex-start (padrão)
+        - alinha o conteúdo no começo do espaço disponível
+- `justify-content`
+    - alinha os itens horizontalmente ( caso o `flex-direction` esteja como row ). Caso esteja como column, alinha verticalmente
+    - .:  flex-start (padrão)
+        - alinha o conteúdo no começo do espaço disponível
+    - .: center
+        - alinha o conteúdo ao centro, de acordo com o espaço disponível.
+    - .: flex-end
+        - alinha o conteúdo ao final do espaço disponível
+    - .: space-between
+        - coloca um espaço igual entre todos os itens  ( ignorando o final e o começo )
+    - .: space-around
+        - coloca um espaço igual entre todos os itens, também colocando um pequeno espaço no começo e no fim
+- `flex-grow`
+    - 0 por padrão
+    - flex-grow: 1;  permite que os itens aumentem de acordo com o espaço disponível na div
+- `flex-shrink`
+    - 1 por padrão
+    - flex-shrink: 1; permite que os itens diminuam de acordo com o tamanho disponível na div
+- `flex`
+    - flex: 1 0; permite utilizar as propriedades flex-grow e flex-shrink ao mesmo tempo
+
+- `flex-wrap`
+    - faz com que o elemento passe para a próxima linha caso não caiba na div atual
+    - com o uso dessa propriedade, ganha-se a propriedade align-content, com as mesmas possibilidades de justify-content
+    - align-content vai nos permitir trabalhar com o grupo inteiro de itens, ao invés do item separadamente. ( estes podem estar em linhas diferentes, por exemplo )
+- `order`
+    - temos a propriedade order, e podemos usar ela para rearranjar nossos itens na tela de acordo com o tamanho da tela.
