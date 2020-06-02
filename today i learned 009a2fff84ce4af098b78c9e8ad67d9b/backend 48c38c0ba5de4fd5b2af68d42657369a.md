@@ -13,3 +13,7 @@
 ---
 
 [regex](backend%2048c38c0ba5de4fd5b2af68d42657369a/regex%200b6170d3061a4b9bb20506c19c5129b7.md)
+
+---
+
+[typescript](backend%2048c38c0ba5de4fd5b2af68d42657369a/typescript%206cd5633f7cc7462ab38a17021eea7f13.md)
